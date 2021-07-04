@@ -9,7 +9,7 @@ h1{
 .title-name{
     color:  #ffa600;
 }
-section{
+.flixable{
     display:flex;
 }
 .title-content{
@@ -44,4 +44,31 @@ section{
     background-image: url(img/dream-bg.png);
     background-repeat: no-repeat;
     background-position: right;
+}
+.title-web{
+    width: 40%;
+    margin-left: 5%;
+    margin-right:5%;
+    margin-bottom: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+
+}
+#web-dev{
+    border-left: 8px solid;
+    border-image: linear-gradient(rgb(192, 94, 2),rgba(252, 247, 0, 0.589));
+    border-image-slice: 1;
+}
+#web-dev-2{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+.experance{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+footer p{
+    text-align: center;
 }
