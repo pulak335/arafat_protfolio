@@ -4,16 +4,17 @@ body{
 }
 h1{
     font-weight: 600;
+    font-size: 2.5em;
 }
 .title-name{
-    color:  #ffd900;
+    color:  #ffa600;
 }
 section{
     display:flex;
 }
 .title-content{
     width: 50%;
-    padding-left: 95px;
+    padding: 90px 60px 30px;
 }
 .title-content img{
     width:100%;
@@ -30,4 +31,17 @@ section{
 .top-bar{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.hireme-btn-2{
+    text-decoration: none;
+    background-image: linear-gradient(#e67300,#ff9933);
+    padding: 12px 50px;
+    border-radius: 8px;
+    font-weight: 700;
+    color: #fff;
+}
+.big-dream{
+    background-image: url(img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
